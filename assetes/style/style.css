@@ -49,7 +49,7 @@ body{
 #CV{
     background-color: white;
     width: 700px;
-    height: 850px;
+    height: 920px;
     position: absolute;
     right: 30px;
     top: 180px;
@@ -223,7 +223,7 @@ display: none;
     align-items: center;
     justify-content: center;
     position: absolute;
-    top :1050px;
+    top :1120px;
     /* margin: 50px; */
     right:  250px;
     cursor: pointer;

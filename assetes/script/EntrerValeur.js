@@ -145,8 +145,8 @@ document.addEventListener("DOMContentLoaded", () => {
     html2canvas(document.querySelector("#CV")).then((canvas) => {
       let base64image = canvas.toDataURL("image/png");
       console.log(base64image);
-      let pdf = new jsPDF("p", "px", [700, 850]);
-      pdf.addImage(base64image, "PNG", 0, 0, 700, 850);
+      let pdf = new jsPDF("p", "px", [700, 920]);
+      pdf.addImage(base64image, "PNG", 0, 0, 700, 920);
       pdf.save("Mon-CV.pdf");
     });
   });
